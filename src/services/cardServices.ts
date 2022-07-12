@@ -55,7 +55,7 @@ function generateCardNumber() {
 
 function generateSecurityCode() {
     const cvc = faker.finance.creditCardCVV();
-    console.log(cvc);
+
     return cryptr.encrypt(cvc);
 }
 

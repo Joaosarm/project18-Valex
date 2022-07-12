@@ -81,7 +81,7 @@ export async function isCardUnblocked(id: number) {
 
 export async function checkBusiness(businessId: number) {
   const business = await businessRepository.findById(businessId);
-  console.log(businessId);
+
   if (!business) {
     throw {
       type: 'Invalid requisition',
