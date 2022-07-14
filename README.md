@@ -16,7 +16,7 @@ POST /createCard
 **Headers**:
 - `x-api-key` - `string` / **Required - api key**
 
-`Registred API KEY: zadKLNx.DzvOVjQH01TumGl2urPjPQSxUbf67vs0`
+`Registred API KEY: 'zadKLNx.DzvOVjQH01TumGl2urPjPQSxUbf67vs0'`
 
 </br>
 
@@ -92,7 +92,7 @@ POST /recharge
 **Headers**:
 - `x-api-key` - `string` / **Required - api key**
 
-`Registred API KEY: zadKLNx.DzvOVjQH01TumGl2urPjPQSxUbf67vs0`
+`Registred API KEY: 'zadKLNx.DzvOVjQH01TumGl2urPjPQSxUbf67vs0'`
 
 **Body**:
 - `id` - `Integer` / **Required - card id**
